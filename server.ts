@@ -20,7 +20,9 @@ let activeUserId = ''; // Default empty: requires credentials login
 async function startServer() {
   const app = express();
  
- app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+ app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Server running on port ${PORT}`);
+});
 
   // Support JSON and urlencoded request bodies
   app.use(express.json());
