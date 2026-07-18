@@ -1,0 +1,568 @@
+{
+  "users": [
+    {
+      "id": "usr-1",
+      "email": "admin@enterprise.com",
+      "username": "pendragon",
+      "password": "admin123",
+      "fullName": "Arthur Pendragon",
+      "role": "ADMIN",
+      "department": "EXECUTIVE",
+      "seniority": "EXECUTIVE",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=120"
+    },
+    {
+      "id": "usr-2",
+      "email": "hr@enterprise.com",
+      "username": "gwenivere",
+      "password": "password123",
+      "fullName": "Gwenivere Vance",
+      "role": "MANAGER",
+      "department": "HR",
+      "seniority": "LEAD",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=120"
+    },
+    {
+      "id": "usr-3",
+      "email": "finance@enterprise.com",
+      "username": "lancelot",
+      "password": "password123",
+      "fullName": "Lancelot du Lac",
+      "role": "FINANCE_OFFICER",
+      "department": "FINANCE",
+      "seniority": "LEAD",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=120"
+    },
+    {
+      "id": "usr-4",
+      "email": "contracts@enterprise.com",
+      "username": "merlin",
+      "password": "password123",
+      "fullName": "Merlin Ambrosius",
+      "role": "CONTRACT_OFFICER",
+      "department": "SUPPORT",
+      "seniority": "LEAD",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=120"
+    },
+    {
+      "id": "usr-5",
+      "email": "alice@enterprise.com",
+      "username": "alice",
+      "password": "password123",
+      "fullName": "Alice Liddell",
+      "role": "EMPLOYEE",
+      "department": "ENGINEERING",
+      "seniority": "SENIOR",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=120"
+    },
+    {
+      "id": "usr-6",
+      "email": "bob@enterprise.com",
+      "username": "bob",
+      "password": "password123",
+      "fullName": "Robert Grantham",
+      "role": "EMPLOYEE",
+      "department": "SUPPORT",
+      "seniority": "MID",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=120"
+    },
+    {
+      "id": "usr-7",
+      "email": "carol@enterprise.com",
+      "username": "carol",
+      "password": "password123",
+      "fullName": "Carol Danvers",
+      "role": "EMPLOYEE",
+      "department": "SALES",
+      "seniority": "JUNIOR",
+      "status": "ACTIVE",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=120"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "ses-1784356509581",
+      "userId": "usr-5",
+      "device": "Aetheris Web Console",
+      "ipAddress": "127.0.0.1",
+      "activeSince": "2026-07-18T06:35:09.581Z",
+      "lastActive": "2026-07-18T06:35:09.581Z"
+    },
+    {
+      "id": "ses-1784344616258",
+      "userId": "usr-1",
+      "device": "Aetheris Web Console",
+      "ipAddress": "127.0.0.1",
+      "activeSince": "2026-07-18T03:16:56.258Z",
+      "lastActive": "2026-07-18T03:16:56.258Z"
+    },
+    {
+      "id": "ses-1",
+      "userId": "usr-1",
+      "device": "MacBook Pro - Chrome (London)",
+      "ipAddress": "194.22.4.99",
+      "activeSince": "2026-07-17T08:30:00Z",
+      "lastActive": "2026-07-17T11:45:00Z"
+    },
+    {
+      "id": "ses-2",
+      "userId": "usr-3",
+      "device": "ThinkPad - Firefox (Paris)",
+      "ipAddress": "82.44.112.5",
+      "activeSince": "2026-07-17T09:15:00Z",
+      "lastActive": "2026-07-17T11:32:00Z"
+    },
+    {
+      "id": "ses-3",
+      "userId": "usr-5",
+      "device": "Ubuntu workstation - VSCode (Munich)",
+      "ipAddress": "46.99.12.23",
+      "activeSince": "2026-07-17T07:45:00Z",
+      "lastActive": "2026-07-17T10:15:00Z"
+    }
+  ],
+  "contracts": [
+    {
+      "id": "con-1",
+      "title": "Global Cloud Platform Migration",
+      "clientName": "Acme Corporation",
+      "value": 120000,
+      "startDate": "2026-06-01",
+      "endDate": "2027-05-31",
+      "status": "ACTIVE",
+      "slaLevel": "GOLD",
+      "billingFrequency": "MILESTONE"
+    },
+    {
+      "id": "con-2",
+      "title": "Enterprise Network Security Audit",
+      "clientName": "Cyberdyne Systems",
+      "value": 45000,
+      "startDate": "2026-07-01",
+      "endDate": "2026-12-31",
+      "status": "ACTIVE",
+      "slaLevel": "SILVER",
+      "billingFrequency": "MONTHLY"
+    },
+    {
+      "id": "con-3",
+      "title": "Smart Grid ERP Integration Consultancy",
+      "clientName": "Stark Industries",
+      "value": 180000,
+      "startDate": "2026-08-01",
+      "endDate": "2027-07-31",
+      "status": "PENDING",
+      "slaLevel": "GOLD",
+      "billingFrequency": "MILESTONE"
+    },
+    {
+      "id": "con-4",
+      "title": "Legacy Systems Decommissioning",
+      "clientName": "Tyrell BioTech",
+      "value": 60000,
+      "startDate": "2026-01-01",
+      "endDate": "2026-06-30",
+      "status": "COMPLETED",
+      "slaLevel": "BRONZE",
+      "billingFrequency": "ONCE"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "tkt-1",
+      "contractId": "con-1",
+      "title": "VPN Gateway Access Failures",
+      "description": "Engineers from Acme cannot connect to the staging subnet since this morning. Suspect routing table typo in development VPC.",
+      "priority": "HIGH",
+      "status": "OPEN",
+      "assignedTo": "usr-5",
+      "createdAt": "2026-07-17T09:00:00Z"
+    },
+    {
+      "id": "tkt-2",
+      "contractId": "con-2",
+      "title": "Weekly Firewall Intrusion Logs Audit",
+      "description": "Routine check of logs under SLA level SILVER is due today. Request logs from corporate IT manager.",
+      "priority": "MEDIUM",
+      "status": "IN_PROGRESS",
+      "assignedTo": "usr-6",
+      "createdAt": "2026-07-16T14:30:00Z"
+    },
+    {
+      "id": "tkt-3",
+      "contractId": "con-1",
+      "title": "Billing Discrepancy on Milestone 1",
+      "description": "Acme accounts payable is asking if the invoice details include the VAT exemption clause.",
+      "priority": "LOW",
+      "status": "RESOLVED",
+      "assignedTo": "usr-3",
+      "createdAt": "2026-07-15T11:00:00Z"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "mil-1",
+      "contractId": "con-1",
+      "title": "Architecture Review and VPC Blueprint",
+      "value": 30000,
+      "dueDate": "2026-06-15",
+      "status": "COMPLETED",
+      "completedAt": "2026-06-14"
+    },
+    {
+      "id": "mil-2",
+      "contractId": "con-1",
+      "title": "Core IAM and Active Directory Federation",
+      "value": 40000,
+      "dueDate": "2026-07-10",
+      "status": "COMPLETED",
+      "completedAt": "2026-07-09"
+    },
+    {
+      "id": "mil-3",
+      "contractId": "con-1",
+      "title": "Database Live Sharding Migration",
+      "value": 50000,
+      "dueDate": "2026-10-31",
+      "status": "PENDING"
+    },
+    {
+      "id": "mil-4",
+      "contractId": "con-2",
+      "title": "Penetration Testing and Remediation Plan",
+      "value": 20000,
+      "dueDate": "2026-09-15",
+      "status": "PENDING"
+    },
+    {
+      "id": "mil-5",
+      "contractId": "con-4",
+      "title": "Decommissioning Sign-off",
+      "value": 60000,
+      "dueDate": "2026-06-25",
+      "status": "COMPLETED",
+      "completedAt": "2026-06-25"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "contractId": "con-1",
+      "senderId": "usr-1",
+      "senderName": "Arthur Pendragon",
+      "content": "VPC migration architecture approved. We are initiating AD Federation.",
+      "createdAt": "2026-06-10T14:30:00Z"
+    },
+    {
+      "id": "msg-2",
+      "contractId": "con-1",
+      "senderId": "usr-5",
+      "senderName": "Alice Liddell",
+      "content": "VPC subnets deployed. Security groups hardened. Handing over to AD team.",
+      "createdAt": "2026-06-13T09:12:00Z"
+    },
+    {
+      "id": "msg-3",
+      "contractId": "con-2",
+      "senderId": "usr-6",
+      "senderName": "Robert Grantham",
+      "content": "Awaiting network diagrams from Cyberdyne to proceed with audit.",
+      "createdAt": "2026-07-14T10:00:00Z"
+    }
+  ],
+  "employees": [
+    {
+      "id": "usr-1",
+      "title": "Chief Executive Officer",
+      "salary": 15000,
+      "joinDate": "2025-01-01",
+      "bankDetails": "IBAN: GB99 enterprise-exec-0001"
+    },
+    {
+      "id": "usr-2",
+      "title": "Human Resources Lead",
+      "reportsTo": "usr-1",
+      "salary": 8000,
+      "joinDate": "2025-02-15",
+      "bankDetails": "IBAN: GB99 enterprise-hr-0002"
+    },
+    {
+      "id": "usr-3",
+      "title": "Chief Financial Officer",
+      "reportsTo": "usr-1",
+      "salary": 9500,
+      "joinDate": "2025-01-10",
+      "bankDetails": "IBAN: GB99 enterprise-finance-0003"
+    },
+    {
+      "id": "usr-4",
+      "title": "Contracts Delivery Officer",
+      "reportsTo": "usr-1",
+      "salary": 8500,
+      "joinDate": "2025-03-01",
+      "bankDetails": "IBAN: GB99 enterprise-contracts-0004"
+    },
+    {
+      "id": "usr-5",
+      "title": "Senior Software Architect",
+      "reportsTo": "usr-4",
+      "salary": 9000,
+      "joinDate": "2025-05-10",
+      "bankDetails": "IBAN: GB99 enterprise-staff-0005"
+    },
+    {
+      "id": "usr-6",
+      "title": "System Support Specialist",
+      "reportsTo": "usr-4",
+      "salary": 5000,
+      "joinDate": "2025-08-01",
+      "bankDetails": "IBAN: GB99 enterprise-staff-0006"
+    },
+    {
+      "id": "usr-7",
+      "title": "Junior Sales Executive",
+      "reportsTo": "usr-1",
+      "salary": 4000,
+      "joinDate": "2026-03-15",
+      "bankDetails": "IBAN: GB99 enterprise-staff-0007"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "lv-1",
+      "employeeId": "usr-5",
+      "employeeName": "Alice Liddell",
+      "startDate": "2026-08-05",
+      "endDate": "2026-08-15",
+      "leaveType": "VACATION",
+      "status": "PENDING",
+      "reason": "Summer holiday trip to Japan with family."
+    },
+    {
+      "id": "lv-2",
+      "employeeId": "usr-6",
+      "employeeName": "Robert Grantham",
+      "startDate": "2026-07-10",
+      "endDate": "2026-07-12",
+      "leaveType": "SICK",
+      "status": "APPROVED",
+      "reason": "Wisdom tooth extraction surgery.",
+      "approvedBy": "usr-2"
+    },
+    {
+      "id": "lv-3",
+      "employeeId": "usr-7",
+      "employeeName": "Carol Danvers",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-02",
+      "leaveType": "PERSONAL",
+      "status": "PENDING",
+      "reason": "Attending sibling graduation."
+    }
+  ],
+  "payrollRuns": [
+    {
+      "id": "pay-1",
+      "period": "2026-05",
+      "amountPaid": 51000,
+      "runDate": "2026-05-28",
+      "status": "PAID"
+    },
+    {
+      "id": "pay-2",
+      "period": "2026-06",
+      "amountPaid": 53000,
+      "runDate": "2026-06-28",
+      "status": "PAID"
+    },
+    {
+      "id": "pay-3",
+      "period": "2026-07",
+      "amountPaid": 53000,
+      "runDate": "2026-07-28",
+      "status": "DRAFT"
+    }
+  ],
+  "accounts": [
+    {
+      "code": "1000-Cash",
+      "name": "Corporate Operating Bank Account",
+      "type": "ASSET",
+      "balance": 250000
+    },
+    {
+      "code": "1100-AccountsReceivable",
+      "name": "Trade Debtors & Client Invoices",
+      "type": "ASSET",
+      "balance": 50000
+    },
+    {
+      "code": "2000-AccountsPayable",
+      "name": "Suppliers & Creditors Liability",
+      "type": "LIABILITY",
+      "balance": 0
+    },
+    {
+      "code": "3000-RetainedEarnings",
+      "name": "Accumulated Corporate Reserves",
+      "type": "EQUITY",
+      "balance": 196000
+    },
+    {
+      "code": "4000-Revenue",
+      "name": "Contract Milestone Invoiced Revenue",
+      "type": "REVENUE",
+      "balance": 130000
+    },
+    {
+      "code": "5000-PayrollExpense",
+      "name": "Workforce Salaries Expense",
+      "type": "EXPENSE",
+      "balance": 26000
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-1a",
+      "date": "2026-06-14",
+      "description": "Acme Milestone 1 VPC Blueprint Complete (Debit Cash)",
+      "amount": 30000,
+      "type": "DEBIT",
+      "accountCode": "1000-Cash",
+      "referenceType": "REVENUE_MILESTONE",
+      "referenceId": "mil-1"
+    },
+    {
+      "id": "tx-1b",
+      "date": "2026-06-14",
+      "description": "Acme Milestone 1 VPC Blueprint Complete (Credit Revenue)",
+      "amount": 30000,
+      "type": "CREDIT",
+      "accountCode": "4000-Revenue",
+      "referenceType": "REVENUE_MILESTONE",
+      "referenceId": "mil-1"
+    },
+    {
+      "id": "tx-2a",
+      "date": "2026-06-25",
+      "description": "Tyrell BioTech Milestone Decommission Complete (Debit Cash)",
+      "amount": 60000,
+      "type": "DEBIT",
+      "accountCode": "1000-Cash",
+      "referenceType": "REVENUE_MILESTONE",
+      "referenceId": "mil-5"
+    },
+    {
+      "id": "tx-2b",
+      "date": "2026-06-25",
+      "description": "Tyrell BioTech Milestone Decommission Complete (Credit Revenue)",
+      "amount": 60000,
+      "type": "CREDIT",
+      "accountCode": "4000-Revenue",
+      "referenceType": "REVENUE_MILESTONE",
+      "referenceId": "mil-5"
+    },
+    {
+      "id": "tx-3a",
+      "date": "2026-07-09",
+      "description": "Acme Milestone 2 IAM Federation Complete (Debit Cash)",
+      "amount": 40000,
+      "type": "DEBIT",
+      "accountCode": "1000-Cash",
+      "referenceType": "REVENUE_MILESTONE",
+      "referenceId": "mil-2"
+    },
+    {
+      "id": "tx-3b",
+      "date": "2026-07-09",
+      "description": "Acme Milestone 2 IAM Federation Complete (Credit Revenue)",
+      "amount": 40000,
+      "type": "CREDIT",
+      "accountCode": "4000-Revenue",
+      "referenceType": "REVENUE_MILESTONE",
+      "referenceId": "mil-2"
+    },
+    {
+      "id": "tx-4a",
+      "date": "2026-06-28",
+      "description": "Workforce Payroll Run June 2026 (Debit Salary Expense)",
+      "amount": 26000,
+      "type": "DEBIT",
+      "accountCode": "5000-PayrollExpense",
+      "referenceType": "EXPENSE_PAYROLL",
+      "referenceId": "pay-2"
+    },
+    {
+      "id": "tx-4b",
+      "date": "2026-06-28",
+      "description": "Workforce Payroll Run June 2026 (Credit Operating Cash)",
+      "amount": 26000,
+      "type": "CREDIT",
+      "accountCode": "1000-Cash",
+      "referenceType": "EXPENSE_PAYROLL",
+      "referenceId": "pay-2"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "not-1",
+      "type": "EMAIL",
+      "recipient": "admin@enterprise.com",
+      "subject": "System Initialization",
+      "body": "Enterprise Resource Monolith system database mounted and seeded successfully.",
+      "status": "SENT",
+      "attempts": 1,
+      "scheduledAt": "2026-07-17T01:30:00Z",
+      "sentAt": "2026-07-17T01:30:05Z"
+    },
+    {
+      "id": "not-2",
+      "type": "EMAIL",
+      "recipient": "hr@enterprise.com",
+      "subject": "New Leave Request Alert",
+      "body": "Employee Alice Liddell has requested Vacation from 2026-08-05 to 2026-08-15. Pending review.",
+      "status": "SENT",
+      "attempts": 1,
+      "scheduledAt": "2026-07-17T09:05:00Z",
+      "sentAt": "2026-07-18T03:24:40.689Z"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-1",
+      "employeeId": "usr-5",
+      "employeeName": "Alice Liddell",
+      "date": "2026-07-17",
+      "checkIn": "09:02:15",
+      "checkOut": "17:30:00",
+      "status": "PRESENT",
+      "notes": "Arrived on time, worked on cloud migration."
+    },
+    {
+      "id": "att-2",
+      "employeeId": "usr-6",
+      "employeeName": "Robert Grantham",
+      "date": "2026-07-17",
+      "checkIn": "08:45:00",
+      "checkOut": "17:00:00",
+      "status": "PRESENT",
+      "notes": "Routine network support tasks."
+    },
+    {
+      "id": "att-3",
+      "employeeId": "usr-7",
+      "employeeName": "Carol Danvers",
+      "date": "2026-07-17",
+      "checkIn": "09:45:00",
+      "checkOut": "18:15:00",
+      "status": "LATE",
+      "notes": "Stuck in traffic, notified manager."
+    }
+  ]
+}

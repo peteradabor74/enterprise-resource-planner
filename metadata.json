@@ -1,0 +1,6 @@
+{
+  "name": "Enterprise Resource Planner",
+  "description": "An Enterprise Resource Planning (ERP) platform with Identity & Access Control, Operational Management, Workforce HRMS, and Financial General Ledger modular pillars.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
