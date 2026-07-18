@@ -3,32 +3,22 @@
     "target": "ES2022",
     "experimentalDecorators": true,
     "useDefineForClassFields": false,
-    "module": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "lib": [
       "ES2022",
       "DOM",
-      "DOM.Iterable",
-     "outDir": "./dist",            // Add this line to create a dist folder
-    "noEmit": false,               // CHANGE THIS FROM true TO false
-    "allowJs": true
+      "DOM.Iterable"
     ],
     "skipLibCheck": true,
-    "moduleResolution": "bundler",
     "isolatedModules": true,
     "moduleDetection": "force",
     "allowJs": true,
     "jsx": "react-jsx",
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     },
-    "allowImportingTsExtensions": true
-  },
-
-"scripts": {
-  "build": "vite build",
-  "start": "node dist/server.js"
-}
-
+    "outDir": "./dist",
+    "noEmit": false
+  }
 }
