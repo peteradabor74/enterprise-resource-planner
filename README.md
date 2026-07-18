@@ -1,20 +1,69 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Enterprise Resource Planner (ERP)
 
-# Run and deploy your AI Studio app
+A modular Enterprise Resource Planning system built with a TypeScript/Express backend, a React frontend, and a MySQL database.
 
-This contains everything you need to run your app locally.
+## 🚀 Tech Stack
+- **Frontend:** React, TypeScript, TailwindCSS (or your UI library)
+- **Backend:** Node.js, Express, TypeScript
+- **Database:** MySQL
+- **ORM:** Prisma / Sequelize (Optional - change if applicable)
 
-View your app in AI Studio: https://ai.studio/apps/66380111-0851-4e45-82a1-2691d5960567
+## 📦 Features & Modules
+- **User Authentication:** Role-based access control (Admin, Manager, Employee).
+- **Inventory Management:** Stock tracking, supplier logs, and reorder alerts.
+- **Financial Accounting:** Invoicing, expense tracking, and balance sheets.
+- **HR/Payroll:** Employee profiles, attendance tracking, and payroll processing.
 
-## Run Locally
+## 🛠️ Getting Started
 
-**Prerequisites:**  Node.js
+### Prerequisites
+- Node.js (v18+ recommended)
+- MySQL Server
 
+### Local Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com
+   cd enterprise-resource-planner
+   ```
+
+2. **Set up environment variables:**
+   Create a `.env` file in the backend root directory:
+   ```env
+   PORT=5000
+   DATABASE_URL="mysql://username:password@localhost:3306/erp_db"
+   JWT_SECRET="your_secret_key"
+   ```
+
+3. **Install Backend Dependencies & Start:**
+   ```bash
+   cd backend
+   npm install
+   npm run dev
+   ```
+
+4. **Install Frontend Dependencies & Start:**
+   ```bash
+   cd ../frontend
+   npm install
+   npm run dev
+   ```
+
+## 🗺️ Project Structure
+```text
+├── backend/          # Express + TypeScript API
+│   ├── src/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   └── index.ts
+│   └── package.json
+├── frontend/         # React + TypeScript SPA
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── App.tsx
+│   └── package.json
+└── README.md
+```
